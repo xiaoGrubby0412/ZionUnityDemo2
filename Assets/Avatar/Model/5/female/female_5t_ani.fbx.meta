@@ -1,0 +1,245 @@
+fileFormatVersion: 2
+guid: fcfff123fbd806346a1f0f483b3cd16c
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_body_m
+    second: {fileID: 2100000, guid: ceb3f2828d1ad094186e2cd4abbc7bc2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_cheongsam_cloth_m
+    second: {fileID: 2100000, guid: 7e5c50853b457a3488eebf7ef83edde0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_cheongsam_sz_m
+    second: {fileID: 2100000, guid: 28b11d436ded3c14fa6295964857048e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_eye_m
+    second: {fileID: 2100000, guid: 70b0fbd30c0150843a8a5c1dd0620755, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_eyelash_m
+    second: {fileID: 2100000, guid: 7d1b511655b15e24d937b385446b2e77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_face_m
+    second: {fileID: 2100000, guid: 047426533b78a574c9964100f1566b96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_grim_cloth_m
+    second: {fileID: 2100000, guid: 2d736ef4638143f468ed8d8e5e4473ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_grim_jewelry_m
+    second: {fileID: 2100000, guid: 5cd88d4d67607ef409626265feeee5c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_hair9_M
+    second: {fileID: 2100000, guid: f6ad207c07801e340991f66920e465ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_hair_hair7_M
+    second: {fileID: 2100000, guid: 6413ccdfd3b73ba4d9fb1423fcf47291, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_hair_leisure1A_M
+    second: {fileID: 2100000, guid: 33911621340f91645967915ee1fc6085, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_hair_stage_m
+    second: {fileID: 2100000, guid: 043f512e91eb44b409f80f976aa0f933, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_pink_dress_m
+    second: {fileID: 2100000, guid: 007974dfade0f5e4ebc349e47b54f8ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_pink_jewelry_m
+    second: {fileID: 2100000, guid: 0c8e7ffe2f05bce44bdfb8308369f4b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_shoes2_m
+    second: {fileID: 2100000, guid: 06446d866767b6840ab8e16bbe7862c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_shoes_cheongsam_m
+    second: {fileID: 2100000, guid: 3a3999891cecfd74186454d0f1c62099, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_shoes_grim_m
+    second: {fileID: 2100000, guid: b7f0641ba0788a243969d51395f15602, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_shoes_pink_m
+    second: {fileID: 2100000, guid: 975707a7e1aed6d4faa05c97cd440313, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_shoes_sport_m
+    second: {fileID: 2100000, guid: 0538a1a42110ecd4ea04ff018f95d84e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_sport_DenimShorts_m
+    second: {fileID: 2100000, guid: def8dcbf6a7684d4399b2d27b3bf803a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_sport_Jacket_m
+    second: {fileID: 2100000, guid: c1837226884070d4d89f0ecb53f68723, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_sport_Socks_m
+    second: {fileID: 2100000, guid: 1dd628b5d98dea34f8b8526df9a1a886, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_sport_jewelry_m
+    second: {fileID: 2100000, guid: 6b22df79072e22e45a1a48b0cc984a40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_sport_vest_m
+    second: {fileID: 2100000, guid: 886e8ce392fd74841826288743078d1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_suit_cloth_m
+    second: {fileID: 2100000, guid: c39313c57c17f9943bf7181546a67199, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: female_suit_pants_m
+    second: {fileID: 2100000, guid: 1608195d685a73f49bd7bccdf5722f7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_HZ_m
+    second: {fileID: 2100000, guid: d054f3f78897b2c47a81d1b09477c55d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_SB_m
+    second: {fileID: 2100000, guid: edb3e28aa9a98c84f88f4a3249a6830f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: prop_YJ_m
+    second: {fileID: 2100000, guid: 875999ef9a878844d9f45cd757ac5823, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 2
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

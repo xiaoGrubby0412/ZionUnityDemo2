@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 202fa8537634d5044a3bca3cc67d6287, type: 3}
+  m_Name: male_lod_11
+  m_EditorClassIdentifier: 
+  guid: f341f76f768437a4392fa7688e577385
+  lodDistances: []
+  lodMeshes:
+  - {fileID: 4300000, guid: 1bc3e95ffbc15da47a9917402de327e3, type: 2}
+  - {fileID: 4300000, guid: ffbe5b473c3349b4fa0e8fa82b987216, type: 2}
