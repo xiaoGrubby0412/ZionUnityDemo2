@@ -67,7 +67,7 @@ namespace Baidu.VR.Zion
             }
         }
 
-        private void Awake()
+        private void Start()
         {
             this.CanRotateAndMove = true;
             this.moveSpeed = 10.0f;
@@ -98,29 +98,20 @@ namespace Baidu.VR.Zion
             this.onGround = true;
             this.useGravity = true;
 
-            // self.moveJoystick = UIJoystickCanvasComponent.Instance.fixedJoystick;
-
-            // Transform unitTransform = GlobalComponent.Instance.Unit.transform;
-            // if (self.needFixGroundPos && unitTransform != null)
-            // {
-            //     Vector3? fixedPos = self.FixPlayerPosition(unitTransform.position);
-            //     if (fixedPos.HasValue)
-            //     {
-            //         unitTransform.position = fixedPos.Value;
-            //     }
-            // }
-        }
-
-        private void Start()
-        {
-            // if (needFixGroundPos && playerTrans != null)
-            // {
-            //     Vector3? fixedPos = FixPlayerPosition(playerTrans.position);
-            //     if (fixedPos.HasValue)
-            //     {
-            //         playerTrans.position = fixedPos.Value;
-            //     }
-            // }
+#if !UNITY_EDITOR
+        #if UNITY_ANDROID || UNITY_IOS
+            this.moveJoystick = FixedJoystick.Instance;
+        #endif
+#endif
+            Transform unitTransform = Player.Instance.transform;
+            if (this.needFixGroundPos && unitTransform != null)
+            {
+                Vector3? fixedPos = this.FixPlayerPosition(unitTransform.position);
+                if (fixedPos.HasValue)
+                {
+                    unitTransform.position = fixedPos.Value;
+                }
+            }
         }
 
 

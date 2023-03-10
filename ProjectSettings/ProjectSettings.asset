@@ -799,7 +799,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    Android: ZION_ANDROID
+    Android: 
     Standalone: ZION_WINDOWS
   additionalCompilerArguments: {}
   platformArchitecture: {}
