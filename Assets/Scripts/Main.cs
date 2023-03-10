@@ -6,9 +6,11 @@ public class Main : MonoBehaviour
 {
     private GameObject playerObj;
     public Vector3 birthPoint = Vector3.zero;
+    public static Main Instance;
 
     private void Awake()
     {
+        Instance = this;
         playerObj = GameObject.Instantiate(Resources.Load("Player")) as GameObject;
         playerObj.transform.position = birthPoint;
         playerObj.transform.localScale = Vector3.one;
@@ -22,12 +24,8 @@ public class Main : MonoBehaviour
 #endif
     }
 
-    void Start()
+    private void OnDestroy()
     {
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
+        Instance = null;
     }
 }
