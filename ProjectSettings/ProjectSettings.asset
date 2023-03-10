@@ -167,6 +167,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.DefaultCompany.zionunitydemo2
+    Standalone: com.DefaultCompany.zion-unity-demo2
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -799,7 +800,7 @@ PlayerSettings:
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
     Android: ZION_ANDROID
-    Standalone: ZION_ANDROID
+    Standalone: ZION_WINDOWS
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}

@@ -9,9 +9,9 @@ namespace Baidu.VR.Zion
         public static Player Instance;
 
         public Transform trackingOriginTransform;
-
+        
         public Transform trackingInterliningTransform;
-
+        
         public Transform hmdTransform;
 
         private void Awake()

@@ -12,9 +12,6 @@ public class Main : MonoBehaviour
         playerObj.transform.localPosition = Vector3.zero;
         playerObj.transform.localScale = Vector3.one;
         playerObj.transform.localRotation = Quaternion.identity;
-
-        GlobalData.Instance.Me = new Baidu.VR.Zion.NetworkPlayer(1);
-        GlobalData.Instance.Me.Avatar = playerObj.GetComponentInChildren<NetworkAvatar>();
     }
 
     void Start()
