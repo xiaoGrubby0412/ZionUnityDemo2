@@ -8,7 +8,8 @@ namespace Baidu.VR.Zion
     {
         public bool CanRotateAndMove = true;
         public AbstractJoystick moveJoystick;
-        public GPUSkinningPlayerMono mono;
+        //public GPUSkinningPlayerMono mono;
+        public Animator animator;
         public float moveSpeed;
         public float moveJoystickLimit;
 
@@ -289,24 +290,24 @@ namespace Baidu.VR.Zion
 
         public void StartMove()
         {
-            this.mono.Player.CrossFade("run", 0.1f);
+            this.animator.SetInteger("Speed", 1);
         }
 
         public void StopMove()
         {
-            this.mono.Player.CrossFade("idle", 0.1f);
+            this.animator.SetInteger("Speed", 0);
         }
 
         // Global.Unit移动控制器，传值给Camera.Unit，拆解相机与控制的强耦合
         private void Move()
         {
-            if (this.mono == null)
+            if (this.animator == null)
             {
                 //self.modelAnim = GlobalComponent.Instance.Unit.GetComponentInChildren<Animator>();
-                this.mono = Player.Instance.GetComponentInChildren<GPUSkinningPlayerMono>();
+                this.animator = Player.Instance.GetComponentInChildren<Animator>();
             }
 
-            if (this.mono == null || this.mono.Player == null)
+            if (this.animator == null)
             {
                 return;
             }
